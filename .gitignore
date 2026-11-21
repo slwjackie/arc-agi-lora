@@ -1,0 +1,27 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*
+.cache/
+.tmp/
+.pytest_cache/
+
+artifacts/
+checkpoints/
+checkpoint-*/
+runs/
+wandb/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.log
+
+# Local cluster configuration and checkpoint transfer scripts
+/gpu-workload.yaml
+/pvc.yaml
+/send_checkpoint.sh
